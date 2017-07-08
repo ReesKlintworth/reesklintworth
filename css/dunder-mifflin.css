@@ -1,0 +1,23 @@
+div.centered {
+    margin: 0 auto;
+    width: 37rem;
+}
+
+div.centered > img {
+    display: block;
+    margin: 0rem auto 3rem;
+}
+
+div.centered > h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Arial";
+}
+
+.green {
+    color: #3C8D0D;
+}
+
+.red {
+    color: #AA0114;
+}
