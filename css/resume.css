@@ -1,0 +1,18 @@
+.skill-select {
+    background-color: transparent;
+    border: 0;
+}
+
+.proficient {
+    padding-bottom: 0.5rem;
+    box-shadow: inset 0 -5px 0 0 #5cb85c; /* Bootstrap Green */
+}
+
+.comfortable {
+    padding-bottom: 0.5rem;
+    box-shadow: inset 0 -5px 0 0 #0275d8; /* Bootstrap Blue */ 
+}
+
+.skill-disabled {
+    box-shadow: inset 0 -5px 0 0 #f7f7f7 /* Boostrap Faded Grey */
+}
