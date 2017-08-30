@@ -11,7 +11,6 @@ $(document).on("click", "#skill-select-comfortable", function() {
 });
 
 update_skills = function() {
-    console.log("updating UI")
     $(".comfortable").each(function(index, value) {
         if (comfortable) {
             $(value).removeClass("skill-disabled");

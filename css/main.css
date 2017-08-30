@@ -35,7 +35,6 @@
 }
 
 .navbar-fixed-bottom {
-    background-color: transparent;
     text-align: center;
 }
 
@@ -62,6 +61,11 @@
 .dropdown-menu > li > a:hover {
     color: #ffffff;
     background-color: #ff8100;
+}
+
+/*Footer*/
+body {
+    padding-bottom: 70px;
 }
 
 /*General CSS*/
