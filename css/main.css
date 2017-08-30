@@ -36,11 +36,14 @@
 
 .navbar-fixed-bottom {
     text-align: center;
+    min-height: 30px;
 }
 
 .navbar-default .navbar-text {
     float: none;
     color: #ff8100;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -65,7 +68,7 @@
 
 /*Footer*/
 body {
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 
 /*General CSS*/
