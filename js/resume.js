@@ -11,6 +11,11 @@ $(document).on("click", "#skill-select-comfortable", function() {
 });
 
 update_skills = function() {
+    if (comfortable) {
+        $("#skill-select-comfortable").addClass("btn-primary");
+    } else {
+        $("#skill-select-comfortable").removeClass("btn-primary");
+    }
     $(".comfortable").each(function(index, value) {
         if (comfortable) {
             $(value).removeClass("skill-disabled");
@@ -19,6 +24,11 @@ update_skills = function() {
         }
     });
 
+    if (proficient) {
+        $("#skill-select-proficient").addClass("btn-success");
+    } else {
+        $("#skill-select-proficient").removeClass("btn-success");
+    }  
     $(".proficient").each(function(index, value) {
         if (proficient) {
             $(value).removeClass("skill-disabled");
