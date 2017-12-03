@@ -163,3 +163,9 @@ body {
     background: #0099e5;
     color: white;
 }
+
+@media(min-width: 992px) {
+    .col-md-2point5 {
+        width: 20.8333333333%;
+    }
+}
