@@ -43,6 +43,7 @@
     margin-left: 0px;
     overflow: auto;
     display: block;
+    max-height: 150px;
 }
 
 .post + .post {
@@ -50,8 +51,6 @@
 }
 
 .post-preview-image-overlay {
-    top: 10px;
-    left: 20px;
     height: 150px;
     width: 300px;
     background-color: rgba(0, 0, 0, .5);
