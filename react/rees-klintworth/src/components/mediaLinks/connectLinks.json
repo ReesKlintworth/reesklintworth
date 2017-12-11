@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "type": "envelope",
+      "link": "mailto:rees.klintworth@gmail.com"
+    },
+    {
+      "type": "flickr",
+      "link": "https://www.flickr.com/photos/reesk"
+    },
+    {
+      "type": "github",
+      "link": "https://github.com/ReesKlintworth"
+    },
+    {
+      "type": "instagram",
+      "link": "https://www.instagram.com/rkade93"
+    },
+    {
+      "type": "linkedin-square",
+      "link": "https://www.linkedin.com/in/reesk"
+    },
+    {
+      "type": "twitter",
+      "link": "https://twitter.com/rkade93"
+    },
+    {
+      "type": "youtube",
+      "link": "https://www.youtube.com/channel/UC2b_2wQ2ngrUuhKVscIXSIA"
+    },
+    {
+      "type": "500px",
+      "link": "https://500px.com/reesk5150"
+    }
+  ]
+}
