@@ -1,0 +1,19 @@
+/*Bootstrap Overrides*/
+
+/*Navbar*/
+.navbar-fixed-bottom {
+  text-align: center;
+  min-height: 30px;
+}
+
+.navbar-default .navbar-text {
+  float: none;
+  color: #ff8100;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*General CSS*/
+body {
+  padding-bottom: 40px;
+}
