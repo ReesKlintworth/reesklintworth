@@ -2,6 +2,7 @@ import React from 'react';
 import { Header, Footer } from '../../components';
 import headerImage from '../../img/header-1-web.jpg';
 import selfieImage from '../../img/rees-square-web.jpg';
+import '../../shared.css';
 import './style.css';
 
 const HomePage = props => {

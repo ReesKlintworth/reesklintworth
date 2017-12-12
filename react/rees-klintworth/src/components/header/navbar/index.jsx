@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const Navbar = props => {
@@ -11,16 +12,16 @@ const Navbar = props => {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="#">Rees Klintworth</a>
+                    <Link className="navbar-brand" to="/">Rees Klintworth</Link>
                 </div>
 
                 <div className="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul className="nav navbar-nav navbar-right">
-                        <li className="active"><a href="#">Home</a></li>
-                        <li><a href="./blog.html">Blog</a></li>                                                        
-                        <li><a href="./resume.html">What I Do</a></li>
-                        <li><a href="./interests.html">What I Love</a></li>
-                        <li><a href="./connect.html">Connect</a></li>
+                        <li className="active"><Link to="/">Home</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
+                        <li><Link to="/resume">What I Do</Link></li>
+                        <li><Link to="/interests">What I Love</Link></li>
+                        <li><Link to="/connect">Connect</Link></li>
                     </ul>
                 </div>
             </div>
