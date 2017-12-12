@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, MediaLinks, Footer } from '../../components';
 import headerImage from '../../img/header-5-web.jpg';
-import linksJson from '../../components/mediaLinks/connectLinks.json';
+import linksJson from './connectLinks.json';
 
 const ConnectPage = props => {
     return (
