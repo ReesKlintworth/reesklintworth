@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-import HomePage from './containers/homePage';
-import ConnectPage from './containers/connectPage';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {
+  ConnectPage,
+  HomePage,
+} from './containers';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <ConnectPage />
-      </div>
+      <Router>
+        <div>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/connect" component={ConnectPage} />
+        </div>
+      </Router>
     );
   }
 }
