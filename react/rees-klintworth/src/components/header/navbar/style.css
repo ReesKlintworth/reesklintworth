@@ -19,7 +19,7 @@
   color: #ffffff;
 }
 
-.navbar-default .navbar-nav > .active > a
+.navbar-default .navbar-nav > li > .active
 {
   color: #ff8100;
   background-color: transparent;

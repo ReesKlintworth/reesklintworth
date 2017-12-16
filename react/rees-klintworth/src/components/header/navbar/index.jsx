@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './style.css';
 
 const Navbar = props => {
@@ -17,11 +17,11 @@ const Navbar = props => {
 
                 <div className="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul className="nav navbar-nav navbar-right">
-                        <li className="active"><Link to="/">Home</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/resume">What I Do</Link></li>
-                        <li><Link to="/interests">What I Love</Link></li>
-                        <li><Link to="/connect">Connect</Link></li>
+                        <li><NavLink activeClassName="active" exact to="/">Home</NavLink></li>
+                        <li><NavLink activeClassName="active" to="/blog">Blog</NavLink></li>
+                        <li><NavLink activeClassName="active" to="/resume">What I Do</NavLink></li>
+                        <li><NavLink activeClassName="active" to="/interests">What I Love</NavLink></li>
+                        <li><NavLink activeClassName="active" to="/connect">Connect</NavLink></li>
                     </ul>
                 </div>
             </div>
