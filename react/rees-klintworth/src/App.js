@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import {
+  BlogHomePage,
   ConnectPage,
   HomePage,
 } from './containers';
@@ -13,6 +14,7 @@ class App extends Component {
         <div>
           <Route exact path="/" component={HomePage} />
           <Route path="/connect" component={ConnectPage} />
+          <Route exact path="/blog" component={BlogHomePage} />
         </div>
       </Router>
     );

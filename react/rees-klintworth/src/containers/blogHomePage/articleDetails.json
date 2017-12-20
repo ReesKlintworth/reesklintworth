@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "link":"/blog/hello-world",
+      "image":"../../img/header-5-web.jpg",
+      "date":
+      {
+        "day": "15",
+        "month": "OCT",
+        "year": "2017"
+      },
+      "title":"Hello, World.",
+      "description":"Blog article #1 (or 0 for my programmer friends). This is where I introduce myself and the blog."
+    }
+  ]
+}
