@@ -1,22 +1,23 @@
 import React from 'react';
+import './style.css';
 
 const BlogArticleDetails = props => {
   return (
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-xs-12 col-md-10 post-container">
-          <div class="post">
-              <a class="post-preview-link" href={props.link}>
-                  <div class="post-preview">
-                      <img class="post-preview-image" src={props.image} />
-                      <div class="post-preview-image-overlay">
-                          <p class="post-date-day">{props.date.day}</p>
-                          <div class="post-date-stacked">
-                              <p class="post-date-month">{props.date.month}</p>
-                              <p class="post-date-year">{props.date.year}</p>
+    <div className="row">
+      <div className="col-md-1"></div>
+      <div className="col-xs-12 col-md-10 post-container">
+          <div className="post">
+              <a className="post-preview-link" href={props.link}>
+                  <div className="post-preview">
+                      <img className="post-preview-image" src={props.image} />
+                      <div className="post-preview-image-overlay">
+                          <p className="post-date-day">{props.date.day}</p>
+                          <div className="post-date-stacked">
+                              <p className="post-date-month">{props.date.month}</p>
+                              <p className="post-date-year">{props.date.year}</p>
                           </div>
                       </div>
-                      <div class="post-preview-text">
+                      <div className="post-preview-text">
                           <h1>{props.title}</h1>
                           <p>{props.description}</p>
                       </div>
@@ -24,7 +25,7 @@ const BlogArticleDetails = props => {
               </a>
           </div>
       </div>
-      <div class="col-md-1"></div>
+      <div className="col-md-1"></div>
   </div>
   );
 };

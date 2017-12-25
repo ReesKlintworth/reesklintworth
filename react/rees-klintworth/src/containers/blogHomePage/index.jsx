@@ -3,17 +3,16 @@ import { Header, BlogArticleDetails, Footer } from '../../components';
 import headerImage from '../../img/header-4-web.jpg';
 import detailsJson from './articleDetails.json';
 
-
 const BlogHomePage = props => {
   return (
     <div>
       <Header
         image={headerImage}
       />
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-xs-12 col-md-10">
+      <div className="container-fluid">
+        <div className="row">
+            <div className="col-md-1"></div>
+            <div className="col-xs-12 col-md-10">
                 <h1>A Blog About Anything.</h1>
                 <p>
                     I've toyed with the idea of blogging for awhile now, and this is my attempt to follow through with that. I have a wide
@@ -27,8 +26,9 @@ const BlogHomePage = props => {
                     Enjoy!
                 </p>
             </div>
-            <div class="col-md-1"></div>
+            <div className="col-md-1"></div>
         </div>
+        {detailsJson.items.map(item => <BlogArticleDetails key={item.link} {...item} />)}
       </div>
       <Footer />
     </div>

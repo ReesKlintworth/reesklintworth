@@ -4,6 +4,7 @@ import Header from './header';
 import MediaLinks from './mediaLinks';
 
 export {
+    BlogArticleDetails,
     Footer,
     Header,
     MediaLinks,
