@@ -1,0 +1,44 @@
+.img-responsive-blog {
+  max-width: 75%;
+  height: auto;
+}
+
+h2 > a {
+  color: black;
+  text-decoration: underline;
+}
+
+h2 > a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.post-information {
+  margin-top: 20px;
+}
+
+.post-author {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.post-author-bio {
+  font-size: 1.25rem;
+  margin-top: 6px;
+}
+
+.post-author-image {
+  width: 64px;
+  float: left;
+  margin-right: 10px;
+}
+
+.fa {
+  width: 50px;
+  padding: 13px;
+  font-size: 24px;
+}
+
+img + p, p + img {
+  margin-top: 10px;
+}

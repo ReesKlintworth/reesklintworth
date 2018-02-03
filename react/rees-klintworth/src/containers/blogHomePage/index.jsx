@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, BlogArticleDetails, Footer } from '../../components';
+import { Articles } from '../blog';
 import headerImage from '../../img/header-4-web.jpg';
-import detailsJson from './articleDetails.json';
 
 const BlogHomePage = props => {
   return (
@@ -28,7 +28,7 @@ const BlogHomePage = props => {
             </div>
             <div className="col-md-1"></div>
         </div>
-        {detailsJson.items.map(item => <BlogArticleDetails key={item.link} {...item} />)}
+        {Articles.map((article, i) => <BlogArticleDetails key={i} article={article.Details} />)}
       </div>
       <Footer />
     </div>
