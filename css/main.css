@@ -169,3 +169,7 @@ body {
         width: 20.8333333333%;
     }
 }
+
+iframe {
+    min-width: 0px !important;
+}
